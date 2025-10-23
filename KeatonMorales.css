@@ -1,0 +1,102 @@
+.navbar {
+  list-style-type: none;
+  padding: 0; /*was 0*/
+  text-align: center; /* optional: centers the nav */
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 10px;
+  border: 2px solid #4d4d4d;
+  border-radius: 8px;
+  padding: 8px 40px;
+  background-color: #f5f5f5;
+  transition: background-color 0.3s;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.navbar li:hover {
+  background-color: #ddd;
+}
+
+.header{
+    text-align: center;
+}
+
+.header h1{
+    font-size: 50px;
+}
+
+body{
+  background: url("LightBanner.png");
+  background-size: cover; 
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+    max-width: 900px; 
+    margin: 10px auto; 
+    padding: 20px; 
+    border-radius: 10px;
+    border: 3px solid black;
+    font-family: futura; /* 'Segoe UI', Arial, sans-serif*/
+    font-size: 18px;
+    background-color: #fffdf9; 
+}
+
+/*[href] {
+    color: darkgreen;
+    font-size: 15px;
+}*/
+
+.section-headings{
+    color: darkslategrey;
+    font-size: 25px;
+}
+
+#about{
+    text-align: left;
+    padding: 10px auto;
+    margin: 20px auto;
+}
+
+h3{
+    font-size: 19px;
+    color: rgba(0,0,0,0.8);
+}
+
+.fa-linkedin{
+  color: #0a66c2;
+}
+
+.linked-in{
+  color: black;
+}
+
+.fa-file{
+  color: #0a66c2;
+}
+
+.resume{
+  color: black;
+}
+
+#contact{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    padding: 10px auto;
+    margin: 20px auto;
+}
+
+#contact .links{
+  display: inline-block;
+  margin: 5px 10px;
+
+}
